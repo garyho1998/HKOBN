@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HKOBN</string>
+    <string name="hint_etLocationName">location name or address</string>
+    <string name="text_btDistance">Distance</string>
+    <string name="text_btDirect">Direct</string>
+    <string name="msg_LastLocationNotAvailable">The last location is not available, please wait for a while</string>
+    <string name="msg_GoogleApiClientConnectionFailed">GoogleApiClient connection failed</string>
+    <string name="msg_GoogleApiClientConnectionSuspended">GoogleApiClient connection suspended</string>
+    <string name="msg_LocationNotAvailable">Location is not available</string>
+    <string name="msg_InvalidInput">Invalid input</string>
+    <string name="text_ShouldGrant">Permission to access location should be granted</string>
+</resources>

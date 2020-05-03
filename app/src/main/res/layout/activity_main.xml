@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/settingicon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/listicon" />
+
+    <TextView
+        android:id="@+id/intro"
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rozha_one"
+        android:layout_marginTop="100px"
+        android:paddingLeft="150px"
+        android:text="This apps will run in the background and send sms to your emergincy contact if you are within XX meters of a target location for more than XX mins "
+        android:textColor="#000000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rozha_one"
+        android:layout_marginTop="100px"
+        android:text="STATUS:"
+        android:layout_gravity="center"
+        android:textColor="#AAAAAA"
+        android:textSize="16dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/appicon2" />
+
+    <Button
+        android:id="@+id/btn_start_tracking"
+        android:layout_width="750px"
+        android:layout_marginTop="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton"
+        android:fontFamily="@font/rozha_one"
+        android:text="Start Tracking"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="66px"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btn_stop_tracking"
+        android:layout_width="750px"
+        android:layout_marginTop="80px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundedbutton2"
+        android:fontFamily="@font/rozha_one"
+        android:textAllCaps="false"
+        android:text="Stop Tracking"
+        android:enabled="false"
+        android:textColor="@color/yellow"
+        android:textSize="66px"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

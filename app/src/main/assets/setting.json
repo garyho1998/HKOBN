@@ -1,0 +1,25 @@
+{
+  "withContact":"false",
+  "withTargets":"false",
+  "withSensitivity":"false",
+  "locations":[
+    { "type":"Police Station", "gps":[ 22.333676, 114.169504 ] },
+    { "type":"Police Station", "gps":[ 22.327012, 114.168737 ] },
+    { "type":"Police Station", "gps":[ 22.330154, 114.158886 ] },
+    { "type":"Police Station", "gps":[ 22.335537, 114.146547 ] },
+    { "type":"Police Station", "gps":[ 22.324357, 114.169022 ] },
+
+    { "type":"Police Station", "gps":[ 22.323594, 114.183298 ] },
+    { "type":"Police Station", "gps":[ 22.324394, 114.185312 ] },
+    { "type":"Police Station", "gps":[ 22.315335, 114.177684 ] },
+    { "type":"Police Station", "gps":[ 22.310372, 114.165653 ] },
+    { "type":"Police Station", "gps":[ 22.309710, 114.168837 ] },
+
+    { "type":"Police Station", "gps":[ 22.302683, 114.171364 ] },
+    { "type":"Police Station", "gps":[ 22.339249, 114.196474 ] },
+    { "type":"Police Station", "gps":[ 22.320603, 114.212027 ] },
+    { "type":"Police Station", "gps":[ 22.349609, 114.196463 ] },
+    { "type":"Police Station", "gps":[ 22.356869, 114.129499 ] }
+  ],
+  "contact": {"countryCode": "852", "phone": "21850000"}
+}
