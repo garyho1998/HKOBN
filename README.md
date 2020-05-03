@@ -17,7 +17,7 @@ Ask for permissions:
 
 Home page:
 
-![](image/mobizen_20191228_035014_Moment5.jpg)
+![](image/mobizen3_Moment5.jpg.jpg)
 
 Get notification sms:
 
